@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conv_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="#C5CAE9"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/conv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:text="name"
+        android:textColor="#3F51B5"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/conv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:text="msg msg"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/conv_datetime"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:text="22/04/2017"
+        android:textColor="#E040FB"
+        android:textSize="8sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
+

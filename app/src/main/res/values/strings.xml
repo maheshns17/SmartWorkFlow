@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Work Flow</string>
+
+    <string name="forgot_password">
+        <a href="https://www.google.com/">Forgot Password?</a></string>
+
+    <string name="Edit_Profile">User Name</string>
+
+    <color name="button_pressed">#ffffff</color>
+    <color name="button_focused">#F06292</color>
+    <color name="button_default">#F06292</color>
+
+    <string name="error">Error</string>
+    <string name="server_error">Server Error</string>
+    <string name="check_internet_connection">Check Internet Connection</string>
+    <string name="Success">Success</string>
+    <string name="verifying">Verifying</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pmaptechnotech.smartworkflow">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden"
+        tools:replace="android:icon">
+        <activity
+            android:name=".activites.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activites.UserLoginActivity" />
+        <activity android:name=".activites.UserRegisterActivity" />
+        <activity android:name=".activites.PasswordCreationActivity" />
+        <activity android:name=".activites.TasksPageActivity" />
+        <activity android:name=".adminside.ListOfRegisteredUsersActivity" />
+        <activity android:name=".adminside.GroupRowsActivity" />
+        <activity android:name=".activites.TaskAssignPageActivity" />
+        <activity android:name=".adminside.CreateProjectAndTaskActivity" />
+        <activity android:name=".activites.NewPasswordActivity" />
+        <activity android:name=".adminside.TasksForIndividualUserActivity" />
+        <activity android:name=".adminside.CreateTaskActivity" />
+        <activity android:name=".activites.IndividualChatActivity" />
+        <activity android:name=".activites.ListOfProjectActivity" />
+        <activity android:name=".activites.GroupConversationActivity" />
+        <activity android:name=".activites.ChatRowsActivity" />
+        <activity android:name=".activites.CreateGroupChatsActivity" />
+        <activity android:name=".activites.ConversationActivity" />
+        <activity android:name=".activites.AssignTaskActivity" />
+        <activity android:name=".activites.TasksINDIActivity" />
+        <activity android:name=".activites.TaskToMeINDIActivity" />
+        <activity android:name=".activites.MyTaskINDIActivity" />
+        <activity android:name=".activites.AssignGroupTaskActivity" />
+        <activity android:name=".activites.TaskToMeGRPActivity" />
+        <activity android:name=".activites.MYTaskGRPActivity" />
+        <activity android:name=".activites.TasksGRPActivity"></activity>
+    </application>
+
+</manifest>
